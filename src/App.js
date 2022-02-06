@@ -68,7 +68,7 @@ class App extends Component {
         }
     }
 
-    removeBlock(blockId: number) {
+    removeBlock(blockId) {
         this.setState((state) => {
             return {
                 blocks: state.blocks.filter((block) => {

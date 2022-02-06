@@ -47,7 +47,7 @@ class Block extends Component {
 
     urlFromText(text) {
         const encoded = plantumlEncoder.encode(text);
-        return this.plantuml_url + '/png/' + encoded;
+        return this.plantuml_url + '/uml/' + encoded;
     }
 
     destroy(e: Event) {
